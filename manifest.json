@@ -1,6 +1,6 @@
 {
-  "name": "JackDanmu",
-  "description": "Print danmu",
+  "name": "AnigamerDanmu",
+  "description": "Read danmu from Anigamer video and display on chrome.",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["tabs"],
