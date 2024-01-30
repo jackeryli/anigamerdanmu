@@ -24,4 +24,18 @@ async function handleBtnClick(event) {
   //console.log("sent");
 }
 
-document.addEventListener("click", handleBtnClick);
+var danmuPlayerBtn = document.createElement('button');
+danmuPlayerBtn.id = "danmu-player-btn";
+danmuPlayerBtn.textContent = "play danmu";
+danmuPlayerBtn.style.height = "30px";
+danmuPlayerBtn.style.width = "100px";
+danmuPlayerBtn.style.marginBottom = "5px";
+danmuPlayerBtn.style.opacity = 100;
+
+window.addEventListener("load", function () {
+  setTimeout(function() {
+    const tipContainer = document.getElementsByClassName("anime-tip")[0];
+    tipContainer.appendChild(danmuPlayerBtn);
+    danmuPlayerBtn.addEventListener("click", handleBtnClick);
+  }, 1000);
+});

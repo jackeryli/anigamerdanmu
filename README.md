@@ -5,18 +5,22 @@ Read danmu from Anigamer video and display on chrome.
 ## How to use
 
 - Install `anigamerdanmu` as chrome extension.
-- Go to anigamer anivideo, choose video and click anywhere.
+- Go to anigamer video, choose video and click `play danmu`.
 - Play danmu on the new window.
 
-## Functionality
+## Control
 
-![Control button](control.jpg)
+![Control button](img/control.jpg)
 
-- Stop: stop playing
-- Resume: resume to play
+- Stop: stop playing danmu
+- Resume: resume to play danmu
 - Reset: reset time to `00:00`
-- Count: danmus of this video
-- Time: click time button to change danmu's times
+- Count: total danmu counts
+- Time: change danmu's times by clicking time button
+
+## Demo
+
+![Sample](img/description.jpg)
 
 ## Reference
 
