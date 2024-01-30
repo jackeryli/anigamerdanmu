@@ -35,7 +35,9 @@ danmuPlayerBtn.style.opacity = 100;
 window.addEventListener("load", function () {
   setTimeout(function() {
     const tipContainer = document.getElementsByClassName("anime-tip")[0];
-    tipContainer.appendChild(danmuPlayerBtn);
-    danmuPlayerBtn.addEventListener("click", handleBtnClick);
+    if(tipContainer) {
+      tipContainer.appendChild(danmuPlayerBtn);
+      danmuPlayerBtn.addEventListener("click", handleBtnClick);
+    }
   }, 1000);
 });
