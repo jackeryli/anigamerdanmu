@@ -2,6 +2,8 @@
 
 Read danmu from Anigamer video and display on chrome.
 
+[Chrome Store](https://chromewebstore.google.com/detail/anigamerdanmu/nahpabdckngnlkckbfndfmokehjomfbg)
+
 ## How to use
 
 - Install `anigamerdanmu` as chrome extension.
